@@ -1,0 +1,12 @@
+add Волков 59 176
+delete
+delete (n="Новиков" and w=42) or (n="Шершов" and h=171)
+delete n="Муравьева"
+delete w=100
+delete
+display
+display n="Титова"
+display w=66
+add Шипарев 67 150
+display h=179
+display

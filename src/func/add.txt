@@ -1,0 +1,9 @@
+ public static void add_@i() {
+            try {
+                pw = new PrintWriter(new FileWriter(table.getAbsoluteFile(), true));
+                pw.write(@mark + "\\n" );
+                pw.close();
+            } catch (IOException e) {
+                System.err.println(e.getMessage());
+            }
+    }

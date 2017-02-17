@@ -1,0 +1,26 @@
+﻿add_1();//Волков 59 176
+System.out.println("added");
+delete_1(); //
+System.out.println("deleted");
+delete_2(); //(n="Новиков" and w=42) or (n="Шершов" and h=171)
+System.out.println("deleted");
+delete_3(); //n="Муравьева"
+System.out.println("deleted");
+delete_4(); //w=100
+System.out.println("deleted");
+delete_1(); //
+System.out.println("deleted");
+display_1();//
+System.out.println("displayed");
+display_2();//n="Титова"
+System.out.println("displayed");
+display_3();//w=66
+System.out.println("displayed");
+add_2();//Шипарев 67 150
+System.out.println("added");
+display_4();//h=179
+System.out.println("displayed");
+sort_1();//n,w,h
+System.out.println("soted");
+display_1();//
+System.out.println("displayed");

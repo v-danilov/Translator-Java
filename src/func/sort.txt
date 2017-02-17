@@ -1,0 +1,23 @@
+ public static void sort_@i() {
+        try {
+            File table = new File("table.txt");
+            BufferedReader in = new BufferedReader(new FileReader(table.getAbsoluteFile()));
+            String s;
+            ArrayList<People> ppl = new ArrayList<>();
+
+            while ((s = in.readLine()) != null) {
+                ppl.add(new People(s));
+            }
+            Collections.sort(ppl,@mark);
+            in.close();
+            pw = new PrintWriter(new FileWriter(table.getAbsoluteFile()));
+             for (People p : ppl) {
+             pw.write(p.getName() + "  " + p.getWeight() + "    " + p.getHeight() + "\\n");
+              }
+              pw.close();
+
+        } catch (IOException e) {
+            System.err.println(e.getMessage());
+        }
+
+    }

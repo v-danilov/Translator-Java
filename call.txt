@@ -1,0 +1,13 @@
+add_1();//Волков 59 176
+delete_1(); //
+delete_2(); //(n="Новиков" and w=42) or (n="Шершов" and h=171)
+delete_3(); //n="Муравьева"
+delete_4(); //w=100
+delete_1(); //
+display_1();//
+display_2();//n="Титова"
+display_3();//w=66
+add_2();//Шипарев 67 150
+display_4();//h=179
+sort_1();//n,w,h
+display_1();//

@@ -1,0 +1,28 @@
+public static void delete_@i() {
+        int i = 0;
+        try {
+            BufferedReader in = new BufferedReader(new FileReader(table.getAbsoluteFile()));
+
+            String s;
+            ArrayList<People> ppl = new ArrayList<>();
+            ArrayList<String> output_list = new ArrayList<>();
+
+            while ((s = in.readLine()) != null) {
+                ppl.add(new People(s));
+                if (!(@mark)){
+                    output_list.add(s);
+                }
+                i++;
+            }
+            in.close();
+            pw = new PrintWriter(new FileWriter(table.getAbsoluteFile()));
+            int size = output_list.size();
+            for(int j = 0; j < @size; j++){
+                pw.write(output_list.get(j) + "\\n");
+            }
+            pw.close();
+        }
+        catch (IOException e){
+            System.err.println(e.getMessage());
+        }
+    }
